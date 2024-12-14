@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand\ Regular\ 400.ttf");
+}
+
+@font-face {
+    font-family: "Honey Script";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "Baloo2-Regular";
+    src: url("fonts/Baloo2-Regular.ttf");
+}
+
+
+/* * {
+    font-family: "Quicksand";
+    font-size: 15px;
+} */
+
+* {
+    font-family: "Baloo2-Regular";
+    font-size: 15px;
+}
+
+.logo {
+    height: 100px;
+    background-image: url("resources/mylogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title1 {
+    font-family: "Honey Script";
+    /* font-family: "LobsterTwo-Italic"; */
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.background {
+    background-image: url("resources/background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainbackground {
+    background-image: url("resources/aa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #f5f5f5;
+}
+
+.label1 {
+    font-size: 16px;
+    /* color: rgba(114, 170, 247, 0.932); */
+    /* color: rgba(211, 224, 243, 0.603); */
+}
+
+.label2 {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.carticon {
+    height: 32px;
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.hrbreak1 {
+    border-style: solid;
+    border-color: silver;
+    border-width: 3px;
+}
+
+.logoimg {
+    height: 80px;
+    background-image: url("resources/mylogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.searchbtn {
+    height: 38px;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.posterimg1 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.postercaption {
+    margin-bottom: 180px;
+}
+
+.postertitle {
+    font-size: 55px;
+    color: black;
+}
+
+.postertxt {
+    color: gray;
+}
+
+.postercaption1 {
+    margin-bottom: 200px;
+    margin-left: 250px;
+    background-color: brown;
+}
+
+.link2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+.cardTopImg {
+    height: 23vh;
+    width: 210px;
+}
+
+.lbl1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pm1 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/paypal_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm2 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/visa_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm3 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/mastercard_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm4 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/american_express_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productimg {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.addbtn {
+    height: 50px;
+}
+
+
+/* ///////////////////////////////////////////////////////// */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #0d6efd;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+/* ///////////////////////// */
+
+.searchbtn1 {
+    width: 100%;
+}
+
+
+/* ///////////////////////// */
+
+.singleproduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    background-color: #e5e5e5;
+    padding: 20px;
+}
+
+.product_qty {
+    width: 130px;
+    height: 45px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    margin-right: 22px;
+    margin-bottom: 11px;
+}
+
+.qty-buttons {
+    width: 30%;
+    height: 43px;
+    border: solid 1px #e5e5e5;
+    top: 0;
+    right: 0;
+}
+
+.qty-inc,
+.qty-dec {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+.qty-inc {
+    padding-bottom: 2px;
+    justify-content: flex-end;
+    border-top-right-radius: 5px;
+}
+
+.qty-dec {
+    padding-top: 2px;
+    justify-content: flex-end;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* empty view */
+
+.emptyview {
+    height: 400px;
+    background-image: url("resources/watchlistEmptyView.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.emptycart {
+    height: 400px;
+    background-image: url("resources/emptycart.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.cartqtytext {
+    height: 40px;
+    width: 100px;
+    outline: none;
+}
+
+
+/* invoice */
+
+.invoiceheaderimg {
+    height: 80px;
+    background-image: url("resources/mylogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* messages */
+
+.message-box,
+.chatbox {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+
+/* first place */
+
+.firstplace {
+    height: 90px;
+    background-image: url("resources/firstplace.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.addnewimg {
+    height: 50px;
+    background-image: url("resources/addnew.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 50%;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+.card {
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    border-color: rgb(106, 126, 241);
+    border-width: 1px;
+    z-index: 100;
+}
+
+.bi-box-arrow-left:hover {
+    color: rgb(106, 126, 241);
+    /* color: rgb(215, 233, 250); */
+}
